@@ -23,7 +23,7 @@
   "require": {
     "php": ">=7.2.0",
     "laravel/nova": "^3.0|^4.0",
-    "optimistdigital/nova-translations-loader": "^3.0.0"
+    "optimistdigital/nova-translations-loader": "*"
   },
   "autoload": {
     "psr-4": {
@@ -37,6 +37,12 @@
       ]
     }
   },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bsormagec/nova-translations-loader"
+        }
+    ],
   "config": {
     "sort-packages": true
   },
